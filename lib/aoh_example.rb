@@ -19,14 +19,13 @@ def literal_aoh
   # held in the constants
 
   [
+    {:name => "Bruce Green", :occupation => "Fan of Mildred"},
     {:name => "Don Gately", :occupation => "Live-in Staff"},
     {:name => "Joelle van Dyne", :occupation => "Radio Personality"},
-    {:name => "Pat Montesseian", :occupation => "Staff"},
     {:name => "Kate Gompert", :occupation => "None"},
-    {:name => "Bruce Green", :occupation => "Fan of Mildred"}
+    {:name => "Pat Montesseian", :occupation => "Staff"}
   ]
   
-  return result.sort 
 
   
 end
