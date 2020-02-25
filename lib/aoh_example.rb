@@ -26,7 +26,7 @@ def literal_aoh
     {:name => "Bruce Green", :occupation => "Fan of Mildred"}
   ]
   
-  result.sort 
+  return result.sort 
 
   
 end
