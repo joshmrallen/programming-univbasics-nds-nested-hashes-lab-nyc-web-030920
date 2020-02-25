@@ -24,7 +24,7 @@ def literal_aoh
     {:name => "Pat Montesseian", :occupation => "Staff"},
     {:name => "Kate Gompert", :occupation => "None"},
     {:name => "Bruce Green", :occupation => "Fan of Mildred"}
-    ]
+    ].sort
   
 end
 
