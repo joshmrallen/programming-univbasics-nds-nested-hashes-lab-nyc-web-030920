@@ -10,7 +10,7 @@ def assembled_aoh(friends[:name], friends[:occupation])
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
   
-  friends.push({friends[:name]})
+  friends.push({:name => friends[:name], :occupation => friends[:occupation]})
   
 end
 
